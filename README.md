@@ -6,8 +6,8 @@ Tento skript je k dispozici všem uživatelům pokladního systému Storyous, kt
 
 Storyous nabízí 3 typy exportu účtenek:
 
-- **CSV soubor** (export obsahuje stornované účtenky, rozlišuje platbu kartou a platbu hotově, neobsahuje rozlišení sazeb DPH)</li>
-- **Flexibee XML** (export vynechává stornované účtenky, nerozlišuje platbu kartou a platbu hotově, obsahuje rozlišení sazeb DPH)</li>
-- **Pohoda XMLV (jako Flexibee)</li>
+- **CSV soubor** export obsahuje stornované účtenky, rozlišuje platbu kartou / hotově, neobsahuje rozlišení sazeb DPH
+- **Flexibee XML** export vynechává stornované účtenky, nerozlišuje platbu kartou / hotově, obsahuje rozlišení sazeb DPH
+- **Pohoda XML** jako Flexibee
 
 Výstupem skriptu je CSV soubor obsahující exportované i stornované účtenky, rozlišení typu platby a rozlišení sazby DPH.
