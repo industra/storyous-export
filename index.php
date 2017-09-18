@@ -201,6 +201,7 @@ echo '
 <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
  <style>
   * { font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  p { width: 50%; }
   body { padding-left: 5%; }
 </style> 
 </head>';
@@ -209,7 +210,7 @@ echo '<!doctype html>';
 echo '<body>';
 echo '<br /><br /><h1>Export účtenek ze Storyous "done right"</h1>';
 echo '<p>Tato služba je k dispozici všem uživatelům pokladního systému Storyous, které trápí nekonzistentní a neúplné exporty
-účtenek do tvaru, ve kterém je lze použít pro plnohodnotné účetnictví. </p>
+účtenek do tvaru, ve kterém je lze použít pro plnohodnotné účetnictví. Kód je volně dostupný pod GNU GPL v2 licencí na <a href="https://github.com/Industra/storyous-export">Githubu</a>.</p>
 <p>Storyous nabízí 3 typy exportu účtenek:</P>
 <ul>
 <li>CSV soubor (export obsahuje stornované účtenky, rozlišuje platbu kartou a platbu hotově, neobsahuje rozlišení sazeb DPH)</li>
