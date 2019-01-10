@@ -31,6 +31,13 @@ if (isset($_POST['zpracuj_form'])) {
         foreach ($radky as $kk => $radek) {
             if ($kk == 0) { continue; }
             $csv_radek = str_getcsv($radek, ';');
+            
+            /* Likvidace zbytečných sloupců */
+            /* odkomentuj nutné unset()y    */
+            unset($csv_radek[4]);     // zruseni sloupce "stůl"
+            //unset($csv_radek[6]);   // zruseni sloupce "obsluhoval"
+            $csv_radek = array_merge($csv_radek);
+            
             $csv_pole[$csv_radek[1]] = $csv_radek;
         }
         
